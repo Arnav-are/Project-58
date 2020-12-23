@@ -1,0 +1,41 @@
+html {
+scroll-behavior: smooth;
+}  
+body{
+text-align: center;
+background: linear-gradient(#ffc800 23%,#ddff00 0%,#66ff00 100%,#00ff73 100%);
+}
+ul li {
+list-style: none;
+display: inline-block;
+line-height: 50px;
+border-right: 5px solid greenyellow;
+border-left: 5px solid greenyellow;
+border-radius: 10px;
+background-color: green;
+}
+ul li a {
+display: inline-block;  
+text-decoration: none;
+font-size: 15px;
+font-family: impact;
+color: black;
+padding: 0 20px;
+}
+a:hover {
+background-color: rgb(25, 240, 204);
+border-radius: 10px;
+font-size: 25px;
+color: blue;
+}
+.menu {
+position: fixed;
+}   
+h1{
+	font-family: impact;
+	font-size: 30px;
+}
+nav{
+    background: #fcba03;
+    background: linear-gradient(#00ffd0 0%,#00a6ff 100%);
+}
